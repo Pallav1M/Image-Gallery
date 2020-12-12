@@ -1,0 +1,17 @@
+img {
+	width : 30% ;
+	float : left;
+	/* 30+30+30=90. Remaining is 10%. We divide that by 6. Since we need to have equal spacing on each side of teh image. That is we need margin of 1.66% */
+	/* margin: 1.66%; */
+	margin: calc(10%/6);
+}
+nav{
+	text-transform: uppercase;
+	border-bottom: 2px solid #F1F1F1;
+	font-family: raleway;
+	margin-left: calc(10%/6);
+	font-size: 23px;
+	font-weight: 800;
+	width: 30%;
+	padding: 20px;
+}
